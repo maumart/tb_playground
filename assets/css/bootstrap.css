@@ -198,6 +198,7 @@ a:hover {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
+  
 }
 
 .span12 {
@@ -4980,4 +4981,11 @@ a.badge:hover {
 
 .invisible {
   visibility: hidden;
+}
+
+
+/************************************************ MAU *******************************/
+body .container:nth-child(2) {
+
+  /*background: #c3c3c3; */
 }
