@@ -813,3 +813,63 @@
     overflow: visible !important;
   }
 }
+
+
+body {
+    background: red url("../images/bg-pixel.jpg");       
+}
+
+
+
+footer {
+    color: white;
+    text-align: right;
+    
+}
+
+header {
+    color: white;
+    text-align: right;
+    
+}
+
+header ul {
+  
+    
+    
+}
+
+header ul li{
+    display: inline-block;
+    border-left: 1px solid white;
+    padding: 0 1em;
+   
+    
+}
+
+header ul li:first-child{
+    border: none;   
+}
+
+#content {
+    height: 700px;
+    border: 2px solid #c3c3c3;
+    background: url("../images/office.jpg");   
+    background-size: cover;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+
+#content article {
+    background: #c3c3c3;
+    opacity: 0.9;
+     height: 700px;
+
+}
+
+#content article .helper {
+    padding: 2em;    
+}
+
+#info {display: none;}
